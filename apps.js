@@ -25,3 +25,15 @@ console.time('Hello');// time taken to execute a particular identifier, here, He
   console.log("Hello world1");
   console.log("Hello world1");
 console.timeEnd('Hello');
+
+//var,let,const
+var name='John Doe';
+console.log(name);
+name='Steve Smith';
+console.log(name);
+
+//Init var
+var greet;
+console.log(greet);
+greet='Hello';
+console.log(greet);
