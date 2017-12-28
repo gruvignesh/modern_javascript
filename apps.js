@@ -28,12 +28,51 @@ console.timeEnd('Hello');
 
 //var,let,const
 var name='John Doe';
-console.log(name);
+console.log(name);//John Doe
 name='Steve Smith';
-console.log(name);
+console.log(name);//Steve Smith
 
 //Init var
 var greet;
-console.log(greet);
+console.log(greet);//Undefined
 greet='Hello';
-console.log(greet);
+console.log(greet);//Hello
+
+//variables can have letters, numbers, _, $
+//Cannot start with a number
+
+
+//Multi words vars
+var firstName='Guru';//Camel Case
+var first_name='Vignesh';//Underscore
+var FirstName='Guru';//Pascal 
+var firstname;
+
+
+//Let
+let name1='John Doe';
+console.log(name1);//John Doe
+name1='Steve Smith';
+console.log(name1);//Steve Smith
+//let is very similar to var, functionalities are similar in global scope but let has its advantages in block level scope
+
+//const
+const name2='John';
+console.log(name2);
+//Cannot resign 
+// name2='Sara';
+//Have to assign a value
+// 
+const person={
+  name: 'Guru',
+  age:23
+}
+person.name='Vignesh';
+person.age=22;
+
+console.log(person);
+
+const numbers=[1,2,3,4,5];
+console.log(numbers);
+numbers.push(6);
+console.log(numbers);
